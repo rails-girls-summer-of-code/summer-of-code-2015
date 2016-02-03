@@ -4,11 +4,11 @@ We are using Github Pages for the website. You can have a look at the `gh-pages`
 
 ## How to create a new blog post
 
-In order to add your blog post to our blog, you will go through the following steps:  
+In order to add your blog post to our blog, you will go through the following steps:
 
 - fork our repo
-- add your blog post  
-- commit and push your changes  
+- add your blog post
+- commit and push your changes
 - send us a pull request
 
 (By contributing, you agree to adhere to our [Code of Conduct](https://github.com/rails-girls-summer-of-code/summer-of-code/blob/master/CODE_OF_CONDUCT.md))
@@ -19,9 +19,9 @@ In order to add your blog post to our blog, you will go through the following st
 
 ### Writing your blog post
 
-Once you have your local copy set up:  
+Once you have your local copy set up:
 
-- create a new file in the `summer-of-code/blog/_posts` folder (on your computer). 
+- create a new file in the `summer-of-code/blog/_posts` folder (on your computer).
 - Call this file `yyyy-mm-dd-your-blog-post-name.md`, where yyyy-mm-dd is the publishing date for your post. Don't forget the .md extension, which stands for `MarkDown`.
 - Add the Jekyll header for the meta data. See any of the posts in the `blog/_posts` folder for an example. Include the top section including the `---` lines and change the attributes where required (probably all of them except the `layout` attribute). The date should be the publishing date of your post. On the twitter line, please just add **your twitter handle without @ character**.
 - Add all your text.
@@ -53,7 +53,7 @@ than 250 kilobytes is too big.
 Please add a line with image credits and be sure to respect the privacy of others
 when uploading photos.
 
-### Committing your changes and sending a pull request 
+### Committing your changes and sending a pull request
 
 Once you're happy with your changes, commit them:
 
@@ -61,3 +61,4 @@ Once you're happy with your changes, commit them:
 - `git commit -m "your commit message"`
 - `git push origin gh-pages` (this will push your changes to the branch `gh-pages` of your own fork of the `summer-of-code` repo on github)
 - make a pull request by navigating to your repo (`http://www.github.com/your_username/summer-of-code`) and your branch (`gh-pages`), and by clicking the "Compare & Review" button, as explained [here](https://help.github.com/articles/using-pull-requests/).
+
